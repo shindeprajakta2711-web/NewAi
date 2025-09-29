@@ -1,0 +1,2 @@
+# NewAi
+building Ai project
