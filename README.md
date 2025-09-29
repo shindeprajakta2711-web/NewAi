@@ -26,10 +26,10 @@ Describe the process of using the solution. In what kind situations is the solut
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![Cat](https://github.com/shindeprajakta2711-web/NewAi/blob/main/ChatGPT%20Image%20Sep%2029,%202025,%2004_17_10%20PM.png?raw=true)
 
 If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="(https://github.com/shindeprajakta2711-web/NewAi/blob/main/ChatGPT%20Image%20Sep%2029,%202025,%2004_17_10%20PM.png?raw=true)">
 
 This is how you create code examples:
 ```
@@ -50,23 +50,42 @@ main()
 ```
 
 
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+# Data sources and AI methods
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The data for ElectroIQ comes from a mix of open educational resources and manufacturer documentation.  
+These sources provide reliable details about electronic components such as pin configurations, symbols, and usage.
+
+[All About Circuits](https://www.allaboutcircuits.com/)  
+[Electronics Tutorials](https://www.electronics-tutorials.ws/)  
+[Texas Instruments Datasheets](https://www.ti.com/)  
+[NXP Semiconductors Datasheets](https://www.nxp.com/)  
+
+| Data Source                | Purpose                          |
+|-----------------------------|----------------------------------|
+| All About Circuits          | General electronics concepts     |
+| Electronics Tutorials       | Beginner-friendly explanations   |
+| Manufacturer Datasheets     | Pin details and specifications   |
+| Open-source textbooks       | Theory and practical examples    |
+
+**AI Methods used:**
+* **Natural Language Processing (NLP):** to understand user queries (e.g., “What is LED?”).  
+* **Rule-based Knowledge Base:** structured facts about components.  
+* **Optional ML models:** for future expansion (e.g., identifying components from images).  
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+1.The AI model’s performance depends heavily on the quality and diversity of the dataset.
+2.Misclassification of components can occur, especially for visually similar parts (e.g., resistors of different ratings or ICs with similar appearance).
+3.Requires a good camera or sensor for high-resolution image capture.
+
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+1.For more accurate output we can develop a high resolution camera which will see the component and will develop the visual image as it is on the recorded video
+2.It can also detect the wrong connection depending on the components or the title of project.
+3.We can also implied the cost effective components for student's project which will be better too and cost effective too
+4.We can also build a AI based stimulation .
+5.We can also implement the circuit by doing the stimulation as for testing purpose.
 
 
 ## Acknowledgments
