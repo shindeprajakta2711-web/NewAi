@@ -33,20 +33,7 @@ If you need to resize images, you have to use an HTML tag, like this:
 
 This is how you create code examples:
 ```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
+# Example: Querying ElectroIQ for electronic component details def query_electroIQ(component): knowledge_base = { "LED": { "definition": "A Light Emitting Diode is a semiconductor device that emits light when current flows through it.", "anode": "The longer leg is the Anode (+).", "cathode": "The shorter leg (flat side) is the Cathode (-).", "usage": "Used in indicators, displays, and lighting applications." }, "Resistor": { "definition": "A resistor is a passive component that resists the flow of electric current.", "symbol": "zig-zag line or rectangle depending on standard.", "usage": "Used to limit current, divide voltage, and bias circuits." } } return knowledge_base.get(component, "Component not found in database.") # Example usage print(query_electroIQ("LED")) print(query_electroIQ("Resistor")) print(query_electroIQ("Capacitor")) # Not yet in database
 ```
 
 
@@ -90,8 +77,14 @@ These sources provide reliable details about electronic components such as pin c
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+## Acknowledgments
+
+I would like to express my gratitude to the following resources and inspirations that helped in shaping this project:
+
+* **Reaktor Innovations & University of Helsinki** – for creating the *Building AI* course that provided the structure and motivation for this project.
+* **Open educational platforms** such as [All About Circuits](https://www.allaboutcircuits.com/) and [Electronics Tutorials](https://www.electronics-tutorials.ws/) for their comprehensive resources on electronics fundamentals.
+* **Texas Instruments** and **NXP Semiconductors** for making their datasheets openly accessible, which formed the backbone of the component reference material.
+* **Open-source communities** that promote knowledge sharing in AI, Python, and electronics.
+* Inspiration from educators, mentors, and peers in the field of *Electronics and Telecommunication Engineering* who emphasized the importance of practical tools for learning.
+
+
